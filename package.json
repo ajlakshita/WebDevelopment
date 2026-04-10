@@ -1,0 +1,38 @@
+{
+  "name": "vit-research-portal-fe",
+  "version": "2.0.0",
+  "description": "VIT Research Portal Frontend - Refactored with modular architecture and JSON-based data management",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "serve": "node server.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [
+    "vit",
+    "research",
+    "portal",
+    "frontend",
+    "modular",
+    "es6"
+  ],
+  "author": "VIT Research Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vit-research-portal-fe"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

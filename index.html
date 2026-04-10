@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>VIT Research Portal</title>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/hero.css" />
+  <link rel="stylesheet" href="./css/about.css" />
+  <link rel="stylesheet" href="./css/sections.css" />
+  <link rel="stylesheet" href="./css/publications.css" />
+  <link rel="stylesheet" href="./css/submission.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <!-- DESKTOP NAVIGATION -->
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrscFKHhRGZnLgkcFtjs-Xu-s0sJOeLIPANQ&s"
+          alt="VIT Research Portal Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="/" data-section="home">Home</a></li>
+        <li><a href="/about" data-section="about">About</a></li>
+        <li><a href="/research-areas" data-section="research-areas">Research Areas</a></li>
+        <li><a href="/schools" data-section="schools">Schools</a></li>
+        <li><a href="/publications" data-section="publications">Publications</a></li>
+        <li><a href="/submit-publication" data-section="submit-publication">Submit Publication</a></li>
+        <li><a href="/contact" data-section="contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- MOBILE NAVIGATION -->
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrscFKHhRGZnLgkcFtjs-Xu-s0sJOeLIPANQ&s"
+          alt="VIT Research Portal Logo" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu-links">
+          <li><a href="/" data-section="home">Home</a></li>
+          <li><a href="/about" data-section="about">About</a></li>
+          <li><a href="/research-areas" data-section="research-areas">Research Areas</a></li>
+          <li><a href="/schools" data-section="schools">Schools</a></li>
+          <li><a href="/publications" data-section="publications">Publications</a></li>
+          <li><a href="/submit-publication" data-section="submit-publication">Submit Publication</a></li>
+          <li><a href="/contact" data-section="contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-content">
+    <!-- HOME SECTION -->
+    <section id="home" class="page-section active">
+      <div class="hero-content">
+        <div class="hero-shell">
+          <div class="hero-copy">
+            <p class="hero-kicker">VIT Research Portal</p>
+            <h1 class="hero-title">Advancing Knowledge, Transforming Lives</h1>
+            <p class="hero-description">
+              Discover the latest research output, emerging areas of innovation, and the people powering VIT’s
+              interdisciplinary excellence.
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-primary"
+                onclick="window.history.pushState({}, '', '/research-areas'); window.dispatchEvent(new PopStateEvent('popstate'));">
+                Explore Research
+              </button>
+              <button class="btn"
+                onclick="window.history.pushState({}, '', '/publications'); window.dispatchEvent(new PopStateEvent('popstate'));">
+                View Publications
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visuals" aria-label="Research highlights">
+            <a href="https://vit.ac.in/research/sponsored-research">
+              <article class="hero-photo-card hero-photo-large">
+                <img src="https://vit.ac.in/wp-content/uploads/2023/06/research12.webp" alt="Sponsored Research" />
+                <div class="hero-photo-caption">Sponsored Research</div>
+              </article>
+            </a>
+            <div class="hero-photo-stack">
+              <a href="https://vit.ac.in/research/academic">
+                <article class="hero-photo-card hero-photo-small">
+                  <img src="https://vit.ac.in/wp-content/uploads/2023/06/2365.webp" alt="Academic Research" />
+                  <div class="hero-photo-caption">Academic Research</div>
+                </article>
+              </a>
+              <a href="https://vit.ac.in/research/centers-list">
+                <article class="hero-photo-card hero-photo-small">
+                  <img src="https://vit.ac.in/wp-content/uploads/2023/06/032.webp" alt="Research Centers" />
+                  <div class="hero-photo-caption">Research Centers</div>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-highlights">
+          <div class="hero-highlight-item">
+            <h3>Interdisciplinary Focus</h3>
+            <p>Engineering, sciences, healthcare, and management research converging for real-world impact.</p>
+          </div>
+          <div class="hero-highlight-item">
+            <h3>Global Partnerships</h3>
+            <p>Collaborations with international institutions, industries, and innovation networks.</p>
+          </div>
+          <div class="hero-highlight-item">
+            <h3>Research-Led Learning</h3>
+            <p>Empowering students and faculty through active projects, labs, and publications.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-content">
+        <div class="home-stats" id="home-stats"></div>
+
+        <div class="home-section">
+          <div class="home-section-header">
+            <div class="home-section-heading">
+              <h2>Featured Publications</h2>
+              <p>Fresh insights from VIT researchers and collaborators.</p>
+            </div>
+            <button class="btn btn-small"
+              onclick="window.history.pushState({}, '', '/publications'); window.dispatchEvent(new PopStateEvent('popstate'));">
+              View All
+            </button>
+          </div>
+          <div class="home-publications" id="home-publications"></div>
+        </div>
+
+        <div class="home-split">
+          <div class="home-section">
+            <div class="home-section-header">
+              <div class="home-section-heading">
+                <h3>Research Areas</h3>
+                <p>Top domains shaping our next decade of innovation.</p>
+              </div>
+              <button class="btn btn-small" id="view-all-research-btn">
+                View All
+              </button>
+            </div>
+            <div class="home-research" id="home-research-areas"></div>
+          </div>
+
+          <div class="home-section">
+            <div class="home-section-header">
+              <div class="home-section-heading">
+                <h3>Schools & Centers</h3>
+                <p>Specialized hubs driving deep research excellence.</p>
+              </div>
+              <button class="btn btn-small"
+                onclick="window.history.pushState({}, '', '/schools'); window.dispatchEvent(new PopStateEvent('popstate'));">
+                View All
+              </button>
+            </div>
+            <div class="home-schools" id="home-schools"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="page-section">
+      <div class="about-hero">
+        <div class="about-hero-text">
+          <p class="about-kicker">About VIT Research</p>
+          <h2 class="about-title">Building a research ecosystem that scales impact.</h2>
+          <p class="about-lead" id="about-vision"></p>
+          <p class="about-overview" id="about-overview"></p>
+        </div>
+        <div class="about-hero-cards" id="about-stats"></div>
+      </div>
+
+      <div class="about-columns">
+        <div class="about-card">
+          <h3>Mission</h3>
+          <ul id="about-mission"></ul>
+        </div>
+        <div class="about-card">
+          <h3>Research Culture</h3>
+          <p id="about-culture"></p>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-feature">
+          <h4>Research Governance</h4>
+          <p id="about-office"></p>
+        </div>
+        <div class="about-feature">
+          <h4>Research Pillars</h4>
+          <ul id="about-pillars"></ul>
+        </div>
+        <div class="about-feature">
+          <h4>Facilities & Labs</h4>
+          <ul id="about-facilities"></ul>
+        </div>
+        <div class="about-feature">
+          <h4>Partnerships & Networks</h4>
+          <ul id="about-partnerships"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH AREAS SECTION -->
+<section id="research-areas" class="page-section">
+  <h2 class="section-title">Research Areas</h2>
+  <p class="section-description">
+    Explore our diverse spectrum of research fields, ranging from fundamental sciences to advanced engineering
+    applications.
+  </p>
+
+  <!-- Alphabet Filter -->
+  <div id="alphabet-filter" class="alphabet-container"></div>
+
+  <!--  Cards Container (IMPORTANT: add ID) -->
+  <div id="research-areas-container" class="research-areas-grid"></div>
+</section>
+
+    <!-- SCHOOLS SECTION -->
+    <section id="schools" class="page-section">
+      <h2 class="section-title">Research Schools & Centers</h2>
+      <p class="section-description">
+        VIT's research landscape is divided into specialized schools and centers of excellence, each fostering deep
+        expertise and innovation in their respective domains.
+      </p>
+      <div class="schools-grid"></div>
+    </section>
+    <!-- PUBLICATIONS SECTION -->
+    <section id="publications" class="page-section">
+      <h2 class="section-title">Research Outputs & Publications</h2>
+      <p class="section-description">
+        Showcasing the latest contributions to global knowledge by our faculty and research scholars.
+      </p>
+
+      <div class="pub-buttons">
+        <button class="btn btn-primary pub-filter-btn" data-filter="all">All Publications</button>
+        <button class="btn pub-filter-btn" data-filter="journal">Journals</button>
+        <button class="btn pub-filter-btn" data-filter="conference">Conferences</button>
+        <button class="btn pub-filter-btn" data-filter="book">Books & Chapters</button>
+        <button class="btn pub-filter-btn" data-filter="patent">Patents</button>
+      </div>
+
+      <div class="pub-container">
+        <div class="pub-grid"></div>
+
+        <div class="library-section"></div>
+      </div>
+    </section>
+
+    <!-- SUBMIT PUBLICATION SECTION -->
+    <section id="submit-publication" class="page-section">
+      <h2 class="section-title">Submit Research Publication for Review</h2>
+      <p class="section-description">
+        Share your latest paper with the VIT research office. Upload your manuscript as a PDF and our editorial team
+        will process it for review.
+      </p>
+
+      <div class="submission-container">
+        <div class="submission-info">
+          <div class="contact-box">
+            <h3 class="contact-box-title">Before You Submit</h3>
+            <p class="contact-text-gray">Please keep these details ready for a faster review:</p>
+            <ul class="submission-list">
+              <li>Final manuscript in PDF format (max 10 MB)</li>
+              <li>Accurate author list and affiliations</li>
+              <li>Abstract and DOI (if available)</li>
+            </ul>
+          </div>
+
+          <div class="contact-box">
+            <h3 class="contact-box-title">Review Workflow</h3>
+            <p class="contact-detail"><strong>Step 1:</strong> Submission received</p>
+            <p class="contact-detail"><strong>Step 2:</strong> Editorial screening</p>
+            <p class="contact-detail-last"><strong>Step 3:</strong> Sent for review</p>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form submission-form" enctype="multipart/form-data">
+            <h3 class="form-title">Publication Submission Form</h3>
+
+            <div class="form-group">
+              <label for="submission-name" class="form-label">Full Name</label>
+              <input type="text" id="submission-name" class="form-input" placeholder="Dr. Jane Doe" />
+            </div>
+
+            <div class="form-group">
+              <label for="submission-email" class="form-label">Email Address</label>
+              <input type="email" id="submission-email" class="form-input" placeholder="jane@vit.ac.in" />
+            </div>
+
+            <div class="form-group">
+              <label for="submission-affiliation" class="form-label">School / Department</label>
+              <input type="text" id="submission-affiliation" class="form-input" placeholder="School of Computer Science and Engineering" />
+            </div>
+
+            <div class="form-group">
+              <label for="submission-title" class="form-label">Paper Title</label>
+              <input type="text" id="submission-title" class="form-input" placeholder="Enter publication title" />
+            </div>
+
+            <div class="form-group">
+              <label for="submission-authors" class="form-label">Authors</label>
+              <input type="text" id="submission-authors" class="form-input" placeholder="Author 1, Author 2, Author 3" />
+            </div>
+
+            <div class="form-group">
+              <label for="submission-type" class="form-label">Publication Type</label>
+              <select id="submission-type" class="form-input form-select">
+                <option value="">Select type</option>
+                <option value="journal">Journal</option>
+                <option value="conference">Conference</option>
+                <option value="book_chapter">Book Chapter</option>
+                <option value="patent">Patent</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="submission-doi" class="form-label">DOI (Optional)</label>
+              <input type="text" id="submission-doi" class="form-input" placeholder="10.xxxx/xxxxx" />
+            </div>
+
+            <div class="form-group">
+              <label for="submission-abstract" class="form-label">Abstract</label>
+              <textarea id="submission-abstract" rows="4" class="form-textarea" placeholder="Paste your abstract"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="submission-file" class="form-label">Upload Paper (PDF)</label>
+              <input type="file" id="submission-file" class="form-input submission-file-input" accept="application/pdf" />
+            </div>
+
+            <div class="form-group-last">
+              <label for="submission-notes" class="form-label">Additional Notes (Optional)</label>
+              <textarea id="submission-notes" rows="3" class="form-textarea" placeholder="Any notes for the review committee"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary form-btn submission-form-btn">Submit for Review</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="page-section">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-container">
+        <div class="contact-info"></div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form contact-message-form">
+            <h3 class="form-title">Send us a message</h3>
+
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" placeholder="John Doe" class="form-input" />
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" class="form-input" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <select id="subject" class="form-input form-select">
+                <option>General Inquiry</option>
+                <option>Collaboration Proposal</option>
+                <option>Student Opportunities</option>
+                <option>Patent Help</option>
+              </select>
+            </div>
+
+            <div class="form-group-last">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" rows="4" placeholder="How can we help you?" class="form-textarea"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary form-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map Placeholder -->
+      <div class="map-container">
+        <iframe
+          class="contact-map"
+          src="https://maps.google.com/maps?q=Vellore+Institute+of+Technology,+Vellore,+Tamil+Nadu&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="VIT Vellore Location">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <br />
+        <a href="vit.ac.in" target="_blank">Academic Research</a>
+        <a href="vit.ac.in" target="_blank">Sponsored Research</a>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <br />
+        <p>Vellore Institute of Technology</p>
+        <p>Vellore - 632014, Tamil Nadu</p>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Vellore Institute of Technology. All rights reserved.</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script type="module" src="./js/app.js"></script>
+
+  <!-- HELPER FUNCTION FOR ONCLICK BUTTONS -->
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll(".page-section");
+      sections.forEach((section) => {
+        section.classList.remove("active");
+        section.hidden = true;
+      });
+
+      const target = document.getElementById(sectionId);
+      if (target) {
+        target.classList.add("active");
+        target.hidden = false;
+      }
+    }
+  </script>
+</body>
+
+</html>
