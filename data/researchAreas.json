@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Advanced Materials",
+    "description": "Researching nanotechnology for sustainable energy solutions and industrial applications.",
+    "image": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg"
+  },
+  {
+    "title": "Biotechnology",
+    "description": "Exploring genomic sequencing and bioinformatics to solve modern healthcare challenges.",
+    "image": "https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg"
+  },
+  {
+    "title": "Cybersecurity & AI",
+    "description": "Developing secure AI frameworks and resilient systems for critical digital infrastructure.",
+    "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg"
+  },
+  {
+    "title": "Data Science",
+    "description": "Using machine learning and analytics to model complex social, industrial, and financial systems.",
+    "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg"
+  },
+  {
+    "title": "Environmental Science",
+    "description": "Studying climate adaptation, biodiversity resilience, and pollution reduction pathways.",
+    "image": "https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg"
+  },
+  {
+    "title": "Fluid Dynamics",
+    "description": "Analyzing turbulent and multiphase flows for aerospace, marine, and automotive applications.",
+    "image": "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg"
+  },
+  {
+    "title": "Green Energy",
+    "description": "Advancing solar, wind, hydrogen, and storage technologies for low-carbon power systems.",
+    "image": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg"
+  },
+  {
+    "title": "Human-Computer Interaction",
+    "description": "Designing intuitive interfaces and assistive technologies for inclusive digital experiences.",
+    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
+  },
+  {
+    "title": "Internet of Things (IoT)",
+    "description": "Connecting sensors, devices, and cloud intelligence for smart campuses and cities.",
+    "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg"
+  },
+  {
+    "title": "Jurisprudence & Law",
+    "description": "Examining legal and policy implications of AI, privacy, and digital public infrastructure.",
+    "image": "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg"
+  },
+  {
+    "title": "Kinesiology",
+    "description": "Studying biomechanics and movement science for rehabilitation and sports performance.",
+    "image": "https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg"
+  },
+  {
+    "title": "Laser Physics",
+    "description": "Developing precision photonic systems for manufacturing, metrology, and medicine.",
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+  },
+  {
+    "title": "Molecular Biology",
+    "description": "Investigating gene regulation, protein interaction, and molecular diagnostics.",
+    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg"
+  },
+  {
+    "title": "Neuroscience",
+    "description": "Mapping neural circuits and cognitive behavior to inform next-gen therapies.",
+    "image": "https://images.pexels.com/photos/8436764/pexels-photo-8436764.jpeg"
+  },
+  {
+    "title": "Oceanography",
+    "description": "Studying coastal systems, marine ecology, and ocean-atmosphere interactions.",
+    "image": "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg"
+  },
+  {
+    "title": "Photonics",
+    "description": "Using light-based technologies for communication, sensing, and quantum devices.",
+    "image": "https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg"
+  },
+  {
+    "title": "Quantum Computing",
+    "description": "Building and simulating quantum architectures for optimization and cryptography.",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
+  },
+  {
+    "title": "Robotics",
+    "description": "Creating autonomous robots for agriculture, healthcare, and industrial automation.",
+    "image": "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg"
+  },
+  {
+    "title": "Space Exploration",
+    "description": "Designing subsystems for satellites, propulsion, and deep-space mission support.",
+    "image": "https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg"
+  },
+  {
+    "title": "Telecommunications",
+    "description": "Optimizing wireless communication systems from 5G/6G to satellite internet.",
+    "image": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg"
+  },
+  {
+    "title": "Urban Planning",
+    "description": "Designing resilient and data-driven smart city infrastructure and mobility systems.",
+    "image": "https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg"
+  },
+  {
+    "title": "Virology",
+    "description": "Studying virus evolution, host interaction, and rapid vaccine development methods.",
+    "image": "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg"
+  },
+  {
+    "title": "Water Resource Management",
+    "description": "Improving water treatment, reuse, and watershed planning for long-term sustainability.",
+    "image": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg"
+  },
+  {
+    "title": "Xenobiology",
+    "description": "Exploring synthetic life systems and non-standard biochemical pathways.",
+    "image": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg"
+  },
+  {
+    "title": "Yield Engineering",
+    "description": "Maximizing process efficiency and throughput in manufacturing and food systems.",
+    "image": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg"
+  },
+  {
+    "title": "Zoology",
+    "description": "Researching animal behavior, genetics, and habitat conservation strategies.",
+    "image": "https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg"
+  },
+  {
+    "title": "Agricultural Informatics",
+    "description": "Applying AI and remote sensing to precision farming and yield forecasting.",
+    "image": "https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg"
+  },
+  {
+    "title": "Biomedical Devices",
+    "description": "Designing low-cost diagnostic tools and wearable monitoring systems.",
+    "image": "https://images.pexels.com/photos/7088520/pexels-photo-7088520.jpeg"
+  },
+  {
+    "title": "Computational Linguistics",
+    "description": "Building multilingual NLP systems for Indian languages and domain-specific tasks.",
+    "image": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg"
+  },
+  {
+    "title": "Digital Manufacturing",
+    "description": "Integrating CAD/CAM, robotics, and digital twins for smart factories.",
+    "image": "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg"
+  },
+  {
+    "title": "Edge Computing",
+    "description": "Optimizing low-latency compute pipelines for distributed IoT systems.",
+    "image": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg"
+  },
+  {
+    "title": "Food Technology",
+    "description": "Developing safer, nutrient-optimized, and sustainable food processing methods.",
+    "image": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg"
+  },
+  {
+    "title": "Geospatial Analytics",
+    "description": "Using GIS and satellite data for disaster planning and urban governance.",
+    "image": "https://images.pexels.com/photos/41953/earth-blue-planet-globe-planet-41953.jpeg"
+  },
+  {
+    "title": "High Performance Computing",
+    "description": "Accelerating simulation workloads for science, engineering, and climate models.",
+    "image": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg"
+  },
+  {
+    "title": "Immersive Media",
+    "description": "Creating AR/VR systems for simulation-based learning and industrial training.",
+    "image": "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg"
+  },
+  {
+    "title": "Microelectronics",
+    "description": "Designing energy-efficient VLSI architectures and semiconductor devices.",
+    "image": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg"
+  },
+  {
+    "title": "Public Health Analytics",
+    "description": "Using epidemiological models and health informatics for policy planning.",
+    "image": "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg"
+  },
+  {
+    "title": "Applied Genomics",
+    "description": "Developing population-scale genomic pipelines for preventive and precision medicine.",
+    "image": "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg"
+  },
+  {
+    "title": "Adaptive Systems Engineering",
+    "description": "Designing self-healing cyber-physical systems for resilient industrial operations.",
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+  },
+  {
+    "title": "Autonomous Mobility",
+    "description": "Research on perception, control, and safety frameworks for autonomous vehicles.",
+    "image": "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg"
+  },
+  {
+    "title": "Advanced Climate Modeling",
+    "description": "Building high-resolution climate simulations for regional risk prediction and planning.",
+    "image": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg"
+  },
+  {
+    "title": "Biomaterials Engineering",
+    "description": "Creating bio-compatible materials for implants, tissue scaffolds, and regenerative medicine.",
+    "image": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg"
+  },
+  {
+    "title": "Behavioral Data Science",
+    "description": "Modeling decision behavior and social dynamics using multimodal human data.",
+    "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg"
+  },
+  {
+    "title": "Circular Manufacturing",
+    "description": "Designing closed-loop production systems to minimize waste and improve material reuse.",
+    "image": "https://images.pexels.com/photos/159751/book-address-book-learning-learn-159751.jpeg"
+  },
+  {
+    "title": "Ubiquitous Computing",
+    "description": "Researching pervasive computing systems integrated into everyday objects.",
+    "image": "https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg"
+  },
+  {
+    "title": "Virtual Reality Applications",
+    "description": "Developing fully immersive digital environments for training and therapy.",
+    "image": "https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg"
+  },
+  {
+    "title": "Wireless Sensor Networks",
+    "description": "Optimizing power and connectivity in distributed sensor architectures.",
+    "image": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg"
+  },
+  {
+    "title": "X-ray Crystallography",
+    "description": "Analyzing the atomic and molecular structure of novel compounds.",
+    "image": "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg"
+  },
+  {
+    "title": "Yeast Genetics",
+    "description": "Using model organisms for deep cellular aging and synthetic biology studies.",
+    "image": "https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg"
+  },
+  {
+    "title": "Zero-emission Vehicles",
+    "description": "Innovating in solid-state batteries and fuel cells for sustainable transportation.",
+    "image": "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg"
+  },
+  {
+    "title": "Functional Materials",
+    "description": "Engineering stimuli-responsive materials for smart coatings, actuators, and sensing.",
+    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg"
+  },
+  {
+    "title": "Forest Ecology",
+    "description": "Studying forest dynamics, carbon sequestration, and biodiversity restoration.",
+    "image": "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg"
+  },
+  {
+    "title": "Gene Editing",
+    "description": "Harnessing CRISPR and base-editing technologies for therapeutic genome modification.",
+    "image": "https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg"
+  },
+  {
+    "title": "Groundwater Hydrology",
+    "description": "Modeling aquifer behavior and developing strategies for sustainable groundwater use.",
+    "image": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg"
+  },
+  {
+    "title": "Healthcare Informatics",
+    "description": "Combining clinical data analytics with machine learning to transform patient outcomes.",
+    "image": "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg"
+  },
+  {
+    "title": "Hydrogen Energy",
+    "description": "Advancing green hydrogen production, storage, and fuel-cell integration.",
+    "image": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg"
+  },
+  {
+    "title": "Intelligent Transportation",
+    "description": "Developing AI-powered traffic management and connected vehicle ecosystems.",
+    "image": "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg"
+  },
+  {
+    "title": "Image Processing",
+    "description": "Advancing computer vision algorithms for medical imaging, surveillance, and autonomous navigation.",
+    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
+  },
+  {
+    "title": "Journal Sciences",
+    "description": "Meta-research on scientific publishing, reproducibility, and open-access dissemination.",
+    "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg"
+  },
+  {
+    "title": "Joint Biomechanics",
+    "description": "Engineering prosthetics and orthotics with enhanced load-bearing biomechanics.",
+    "image": "https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg"
+  },
+  {
+    "title": "Knowledge Representation",
+    "description": "Building formal ontologies and semantic knowledge graphs for intelligent reasoning.",
+    "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg"
+  },
+  {
+    "title": "Kinetic Energy Harvesting",
+    "description": "Converting ambient mechanical vibration into usable electrical power.",
+    "image": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg"
+  },
+  {
+    "title": "Lab-on-a-Chip",
+    "description": "Miniaturizing diagnostic workflows into microfluidic platform technologies.",
+    "image": "https://images.pexels.com/photos/7088520/pexels-photo-7088520.jpeg"
+  },
+  {
+    "title": "Language Technology",
+    "description": "Building speech recognition and machine translation systems for Indian multilingual contexts.",
+    "image": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg"
+  },
+  {
+    "title": "Marine Engineering",
+    "description": "Designing offshore structures, propulsion systems, and ocean energy platforms.",
+    "image": "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg"
+  },
+  {
+    "title": "Mechatronics",
+    "description": "Integrating mechanical, electronic, and software systems for smart machines.",
+    "image": "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg"
+  },
+  {
+    "title": "Nanomedicine",
+    "description": "Using nanoparticle carriers for targeted drug delivery and cancer therapy.",
+    "image": "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg"
+  },
+  {
+    "title": "Nuclear Materials",
+    "description": "Studying radiation effects and developing advanced fuels for nuclear reactor applications.",
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+  },
+  {
+    "title": "Operations Research",
+    "description": "Applying optimization theory to logistics, scheduling, and resource allocation problems.",
+    "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg"
+  },
+  {
+    "title": "Optical Engineering",
+    "description": "Designing lenses, fiber systems, and photonic integrated circuits for communications.",
+    "image": "https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg"
+  },
+  {
+    "title": "Plasma Physics",
+    "description": "Studying plasma behavior in fusion devices, space propulsion, and industrial processes.",
+    "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
+  },
+  {
+    "title": "Polymer Science",
+    "description": "Developing biopolymers and stimuli-responsive materials for packaging and biomedical use.",
+    "image": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg"
+  },
+  {
+    "title": "Quantum Cryptography",
+    "description": "Building quantum-secure communication protocols for next-generation networks.",
+    "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg"
+  },
+  {
+    "title": "Quality Engineering",
+    "description": "Advancing statistical process control and reliability analysis in manufacturing.",
+    "image": "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg"
+  },
+  {
+    "title": "Regenerative Medicine",
+    "description": "Engineering stem-cell therapies and tissue scaffolds for organ repair.",
+    "image": "https://images.pexels.com/photos/3825529/pexels-photo-3825529.jpeg"
+  },
+  {
+    "title": "Remote Sensing",
+    "description": "Applying satellite and drone data for land use, crop mapping, and disaster assessment.",
+    "image": "https://images.pexels.com/photos/41953/earth-blue-planet-globe-planet-41953.jpeg"
+  },
+  {
+    "title": "Structural Engineering",
+    "description": "Designing earthquake-resilient structures using advanced composites and smart materials.",
+    "image": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg"
+  },
+  {
+    "title": "Soft Robotics",
+    "description": "Creating flexible, compliant robotic systems inspired by biological organisms.",
+    "image": "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg"
+  },
+  {
+    "title": "Tribology",
+    "description": "Studying friction, wear, and lubrication for durable mechanical and biomedical systems.",
+    "image": "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg"
+  },
+  {
+    "title": "Thermoelectric Energy",
+    "description": "Converting waste heat to electricity using advanced thermoelectric materials.",
+    "image": "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg"
+  }
+]
